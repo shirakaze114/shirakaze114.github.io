@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://blog.shira-aya.top/2023/01/19/PVE%20%E5%AE%89%E8%A3%85%E5%AF%84/2023-01-19-15-21-27.png">
 <meta property="article:published_time" content="2023-01-18T23:03:03.000Z">
-<meta property="article:modified_time" content="2023-01-19T08:03:34.981Z">
+<meta property="article:modified_time" content="2023-01-19T08:05:05.641Z">
 <meta property="article:author" content="KZK_">
 <meta property="article:tag" content="linux">
 <meta property="article:tag" content="proxmox">
@@ -225,7 +225,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.3k 字
+          1.2k 字
         
       </span>
     
@@ -236,7 +236,7 @@
         
         
         
-          11 分钟
+          10 分钟
         
       </span>
     
@@ -306,10 +306,7 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment">#deb http://ftp.debian.org/debian bullseye main contrib</span><br><span class="hljs-comment">#deb http://ftp.debian.org/debian bullseye-updates main contrib</span><br><span class="hljs-comment"># security updates</span><br><span class="hljs-comment">#deb http://security.debian.org bullseye/updates main contrib</span><br><br><span class="hljs-comment"># debian aliyun source</span><br>deb https://mirrors.aliyun.com/debian bullseye main contrib non-free<br>deb https://mirrors.aliyun.com/debian bullseye-updates main contrib non-free<br>deb https://mirrors.aliyun.com/debian bullseye/updates main contrib non-free<br><br><span class="hljs-comment"># proxmox source</span><br><span class="hljs-comment"># deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription</span><br>deb https://mirrors.ustc.edu.cn/proxmox/debian/pve bullseye pve-no-subscription<br></code></pre></td></tr></table></figure>
 
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash"><span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;deb https://mirrors.ustc.edu.cn/proxmox/debian/pve bullseye pve-no-subscription&quot;</span> &gt; /etc/apt/sources.list.d/pve-no-subscription.list</span><br></code></pre></td></tr></table></figure>
-
-<p>更换 ceph 源</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment">#deb http://download.proxmox.com/debian/ceph-quincy bullseye main</span><br>deb https://mirrors.ustc.edu.cn/proxmox/debian/ceph-quincy bullseye main<br></code></pre></td></tr></table></figure>
-<p>最后，再 <code>apt update</code> 一下，就装得差不多了。</p>
+<p>最后，再 <code>apt update</code> 一下，就装到能用的水准了。  </p>
 
                 
               </div>
