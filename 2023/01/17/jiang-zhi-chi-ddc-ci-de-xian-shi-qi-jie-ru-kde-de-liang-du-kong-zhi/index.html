@@ -13,37 +13,30 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#aeaeae">
-  <meta name="author" content="Mark1551">
+  <meta name="author" content="KZK_">
   <meta name="keywords" content="">
   
-    <meta name="description" content="最近我看到bilibili上有很多视频开始用oooooohmygosh老师参与制作的得意黑字体。这位是我很敬佩的一个人，这个字体也是非常良心、非常美观的一个字体。但是我觉得很多人都在滥用字体（我指用得不准确），包括这个。（以下言论均为我个人观点。本人并非该方面专业人员，本文是我作为使用者来简述使用中的感受等。）">
+    <meta name="description" content="有些时候尤其是晚上，显示器太亮了，又不想面对硬按钮、难用的OSD菜单。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="什么时候该选用怎么样的字体？">
-<meta property="og:url" content="http://blog.shira-aya.top/2023/01/20/%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%AF%A5%E9%80%89%E7%94%A8%E6%80%8E%E4%B9%88%E6%A0%B7%E7%9A%84%E5%AD%97%E4%BD%93%EF%BC%9F/index.html">
+<meta property="og:title" content="将支持 DDC&#x2F;CI 的显示器接入 KDE 的亮度控制">
+<meta property="og:url" content="http://blog.shira-aya.top/2023/01/17/jiang-zhi-chi-ddc-ci-de-xian-shi-qi-jie-ru-kde-de-liang-du-kong-zhi/index.html">
 <meta property="og:site_name" content="KZK&#39;s Blog">
-<meta property="og:description" content="最近我看到bilibili上有很多视频开始用oooooohmygosh老师参与制作的得意黑字体。这位是我很敬佩的一个人，这个字体也是非常良心、非常美观的一个字体。但是我觉得很多人都在滥用字体（我指用得不准确），包括这个。（以下言论均为我个人观点。本人并非该方面专业人员，本文是我作为使用者来简述使用中的感受等。）">
+<meta property="og:description" content="有些时候尤其是晚上，显示器太亮了，又不想面对硬按钮、难用的OSD菜单。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://raw.githubusercontent.com/atelier-anchor/smiley-sans/main/docs/images/smiley-sans.light.svg">
-<meta property="og:image" content="http://blog.shira-aya.top/2023/01/20/%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%AF%A5%E9%80%89%E7%94%A8%E6%80%8E%E4%B9%88%E6%A0%B7%E7%9A%84%E5%AD%97%E4%BD%93%EF%BC%9F/2023-01-20-12-56-40.png">
-<meta property="og:image" content="http://blog.shira-aya.top/2023/01/20/%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%AF%A5%E9%80%89%E7%94%A8%E6%80%8E%E4%B9%88%E6%A0%B7%E7%9A%84%E5%AD%97%E4%BD%93%EF%BC%9F/2023-01-20-12-47-15.png">
-<meta property="og:image" content="http://blog.shira-aya.top/2023/01/20/%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%AF%A5%E9%80%89%E7%94%A8%E6%80%8E%E4%B9%88%E6%A0%B7%E7%9A%84%E5%AD%97%E4%BD%93%EF%BC%9F/2023-01-20-12-51-30.png">
-<meta property="og:image" content="http://blog.shira-aya.top/2023/01/20/%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%AF%A5%E9%80%89%E7%94%A8%E6%80%8E%E4%B9%88%E6%A0%B7%E7%9A%84%E5%AD%97%E4%BD%93%EF%BC%9F/2023-01-20-13-18-01.png">
-<meta property="og:image" content="http://blog.shira-aya.top/2023/01/20/%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%AF%A5%E9%80%89%E7%94%A8%E6%80%8E%E4%B9%88%E6%A0%B7%E7%9A%84%E5%AD%97%E4%BD%93%EF%BC%9F/2023-01-20-13-19-11.png">
-<meta property="og:image" content="http://blog.shira-aya.top/2023/01/20/%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%AF%A5%E9%80%89%E7%94%A8%E6%80%8E%E4%B9%88%E6%A0%B7%E7%9A%84%E5%AD%97%E4%BD%93%EF%BC%9F/2023-01-20-13-19-51.png">
-<meta property="article:published_time" content="2023-01-20T03:29:12.634Z">
-<meta property="article:modified_time" content="2023-01-20T06:01:21.671Z">
+<meta property="og:image" content="http://blog.shira-aya.top/2023/01/17/jiang-zhi-chi-ddc-ci-de-xian-shi-qi-jie-ru-kde-de-liang-du-kong-zhi/2023-01-18-05-30-33.png">
+<meta property="article:published_time" content="2023-01-17T13:29:38.000Z">
+<meta property="article:modified_time" content="2023-01-20T05:35:57.898Z">
 <meta property="article:author" content="KZK_">
-<meta property="article:tag" content="font">
-<meta property="article:tag" content="design">
-<meta property="article:tag" content="subtitles">
+<meta property="article:tag" content="linux">
+<meta property="article:tag" content="monitor">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/atelier-anchor/smiley-sans/main/docs/images/smiley-sans.light.svg">
+<meta name="twitter:image" content="http://blog.shira-aya.top/2023/01/17/jiang-zhi-chi-ddc-ci-de-xian-shi-qi-jie-ru-kde-de-liang-du-kong-zhi/2023-01-18-05-30-33.png">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>什么时候该选用怎么样的字体？ - KZK&#39;s Blog</title>
+  <title>将支持 DDC/CI 的显示器接入 KDE 的亮度控制 - KZK&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -209,7 +202,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle">什么时候该选用怎么样的字体？</span>
+            <span id="subtitle">将支持 DDC/CI 的显示器接入 KDE 的亮度控制</span>
           
         </div>
 
@@ -219,14 +212,14 @@
     
       <span class="post-meta mr-2">
         <i class="iconfont icon-author" aria-hidden="true"></i>
-        Mark1551
+        KZK_
       </span>
     
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-01-20 11:29" pubdate>
-          2023年1月20日 上午
+        <time datetime="2023-01-17 21:29" pubdate>
+          2023年1月17日 晚上
         </time>
       </span>
     
@@ -237,7 +230,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.2k 字
+          635 字
         
       </span>
     
@@ -248,7 +241,7 @@
         
         
         
-          11 分钟
+          6 分钟
         
       </span>
     
@@ -307,12 +300,12 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">什么时候该选用怎么样的字体？</h1>
+            <h1 style="display: none">将支持 DDC/CI 的显示器接入 KDE 的亮度控制</h1>
             
               <p class="note note-info">
                 
                   
-                    本文最后更新于：3 分钟前
+                    本文最后更新于：31 分钟前
                   
                 
               </p>
@@ -320,32 +313,49 @@
             
               <div class="markdown-body">
                 
-                <p><em><strong>以下言论均为我个人观点。本人并非该方面专业人员，本文是我作为使用者来简述使用中的感受等。</strong></em>  </p>
+                <p>显示器要调暗是怎么回事呢？显示器相信大家都很熟悉，但是显示器要调暗是怎么回事呢，下面就让小编带大家一起了解吧。<br>显示器要调暗，其实就是太亮了的话，在晚上对眼睛不好，大家可能会很惊讶显示器怎么会要调暗呢？但事实就是这样，小编也感到非常惊讶。</p>
 <hr>
-<h2 id="得意黑"><a href="#得意黑" class="headerlink" title="得意黑"></a>得意黑</h2><p>最近我看到bilibili上有很多视频开始用<a target="_blank" rel="noopener" href="https://space.bilibili.com/38053181">oooooohmygosh</a>老师参与制作的<a target="_blank" rel="noopener" href="https://github.com/atelier-anchor/smiley-sans">得意黑</a>字体。这位是我很敬佩的一个人，这个字体也是非常良心、非常美观的一个字体。<br><img src="https://raw.githubusercontent.com/atelier-anchor/smiley-sans/main/docs/images/smiley-sans.light.svg" srcset="/img/loading.gif" lazyload alt="得意黑字体"></p>
-<p>但是我觉得，在某些场合里面用这个字体是不是有些不合适？譬如<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/av990153256/">作为系统字体</a>、<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/av988642671/">作为IDE的字体</a>等，这些场合是对字体有一定要求的吧，读得快、读得准、读得舒服这样的。黑体字、宋体字比较好的选择。自定义字体当然是个人的权利，我说的也只是对于我自己的看法。  </p>
-<p>很多个o老师也是这样觉得的：</p>
-<blockquote>
-<p>还是要再次强调，得意黑是美术字，是美术字，是美术字。  </p>
-<p>虽然在<a target="_blank" rel="noopener" href="https://github.com/atelier-anchor/smiley-sans#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9">GitHub主页</a>已经写得很清楚了，得意黑部分笔画和结构采用了美术字风格的形态处理方式，并未严格遵循中国大陆规范汉字写法，敬请注意。但用户们似乎还是会把它用到非常不合适的地方，比如替换成手机系统字体。</p>
-<p>任何字体都存在被滥用的风险，但得意黑通过自媒体平台发布之后被快速地大面积使用，会让滥用的情况看起来更加突出。也有人说得意黑是简中版本的Comic Sans，这实在是太抬举了，得意黑怎么可能会得到嵌入到操作系统里面这种待遇呢，爆火只是一时的，不必担心。</p>
-<p>所以我的呼吁是，用户们在选用字体的时候，可以认真思考下，究竟什么时候应该优先选用汉字规范写法的字体，又在什么时候可以选用美术字。这种事情看似基础，但还需要时间向人们科普。帮助人们提升设计意识才能从根本上为「美术字滥用」这个问题带来改变，剑指得意黑并不会改变什么。</p>
-<p>摘自『<a target="_blank" rel="noopener" href="https://www.bilibili.com/read/cv20540416">让我们在得意黑之外，再次相见吧。</a>』——oooooohmygosh  </p>
-</blockquote>
-<h2 id="那我是怎么选字体的？"><a href="#那我是怎么选字体的？" class="headerlink" title="那我是怎么选字体的？"></a>那我是怎么选字体的？</h2><p>啊哈，我选字体就是在哪种场合下看哪种顺眼就选了，没有什么特别的癖好。  </p>
-<h3 id="1-字幕字体"><a href="#1-字幕字体" class="headerlink" title="1. 字幕字体"></a>1. 字幕字体</h3><p>一般是黑体。如果有源视频的话会跟着源视频的制作人员名单或者自带的字幕去选。  </p>
-<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/av673798024/">例1 一般是黑体 (走れウマ娘)</a><br><img src="/2023/01/20/%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%AF%A5%E9%80%89%E7%94%A8%E6%80%8E%E4%B9%88%E6%A0%B7%E7%9A%84%E5%AD%97%E4%BD%93%EF%BC%9F/2023-01-20-12-56-40.png" srcset="/img/loading.gif" lazyload alt="例1图">  </p>
-<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/av556414017/">例2 跟着源视频的制作人名单 (Shirakaze - osu! MIRACLE RUSH (TV Size))</a><br><img src="/2023/01/20/%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%AF%A5%E9%80%89%E7%94%A8%E6%80%8E%E4%B9%88%E6%A0%B7%E7%9A%84%E5%AD%97%E4%BD%93%EF%BC%9F/2023-01-20-12-47-15.png" srcset="/img/loading.gif" lazyload alt="例2图">  </p>
-<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/av476885040/">例3 跟着源视频的字幕 (Shirakaze - osu! ギターと孤独と蒼い惑星)</a><br><img src="/2023/01/20/%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%AF%A5%E9%80%89%E7%94%A8%E6%80%8E%E4%B9%88%E6%A0%B7%E7%9A%84%E5%AD%97%E4%BD%93%EF%BC%9F/2023-01-20-12-51-30.png" srcset="/img/loading.gif" lazyload alt="例3图"></p>
-<p>如果比较短的，比如几分钟的音乐视频，我觉得适量使用美术字也不错。<br>但是像24分钟的动画之类上面用美术字，我看完会觉得真瞎眼，看得难受，因为那些字形都不规范，难以辨识这个字是啥哪个字是啥。  </p>
-<!-- 所以我喜欢`SweetSub`字幕组的字幕（ -->
+<h2 id="为什么要用软件调显示屏亮度"><a href="#为什么要用软件调显示屏亮度" class="headerlink" title="为什么要用软件调显示屏亮度"></a>为什么要用软件调显示屏亮度</h2><ol>
+<li>方便，我的键盘上有调节亮度的功能键  </li>
+<li>我显示屏的按钮，又硬又难辨认，有时候按着按着画面没了(AOC!!!! 还有为什么不能同时开sRGB模式的同时改亮度)</li>
+</ol>
+<h2 id="怎么看出我的设备支持-DDC-x2F-CI"><a href="#怎么看出我的设备支持-DDC-x2F-CI" class="headerlink" title="怎么看出我的设备支持 DDC&#x2F;CI"></a>怎么看出我的设备支持 DDC&#x2F;CI</h2><p>百度搜索。  </p>
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ol>
+<li>看看你的显示器正不正常</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">ddcutil detect</span><br></code></pre></td></tr></table></figure>
 
-<h3 id="2-系统字体"><a href="#2-系统字体" class="headerlink" title="2. 系统字体"></a>2. 系统字体</h3><p>不论是手机还是电脑，作为每天用电子设备必须经常看的字体，应该读得快、读得准、读得舒服吧。<br>黑体是不错的选择，感觉宋体这样的衬线体看久会比较累，可能是比较尖锐？<br>美术字、书法字之类看久是难受的，看过就懂。</p>
-<p>反例：<br><img src="/2023/01/20/%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%AF%A5%E9%80%89%E7%94%A8%E6%80%8E%E4%B9%88%E6%A0%B7%E7%9A%84%E5%AD%97%E4%BD%93%EF%BC%9F/2023-01-20-13-18-01.png" srcset="/img/loading.gif" lazyload><br><img src="/2023/01/20/%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%AF%A5%E9%80%89%E7%94%A8%E6%80%8E%E4%B9%88%E6%A0%B7%E7%9A%84%E5%AD%97%E4%BD%93%EF%BC%9F/2023-01-20-13-19-11.png" srcset="/img/loading.gif" lazyload></p>
-<p>甚至有这些：<br><img src="/2023/01/20/%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%AF%A5%E9%80%89%E7%94%A8%E6%80%8E%E4%B9%88%E6%A0%B7%E7%9A%84%E5%AD%97%E4%BD%93%EF%BC%9F/2023-01-20-13-19-51.png" srcset="/img/loading.gif" lazyload></p>
-<p>这些有注音上面的字体在同样字号下会显小，看着真的难受。还有中文字体有拼音注音就醒了，你搞个平假名注音，什么意思？显得很牛逼？很有文化？很可爱？我觉得就显得罕见。</p>
-<h3 id="3-其他"><a href="#3-其他" class="headerlink" title="3. 其他"></a>3. 其他</h3><p>看需求。文章我会用宋体、仿宋、黑体这样的字体。比较看着舒服。<br>终端、<code>vscode</code>里面用等宽字体。  </p>
-<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>以上是我个人观点，不喜勿喷，感谢阅读。</p>
+<ol start="2">
+<li>看看你的亮度正不正常</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">ddcutil getvcp 10</span> <br>// feature 10 = brightness<br></code></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>调调你的亮度，看看功能正不正常</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">ddcutil setvcp 10 80</span> <br></code></pre></td></tr></table></figure>
+
+<ol start="4">
+<li>把 KDE 的 <code>powerdevil</code> 换成 AUR 上的 <code>powerdevil-ddcutil</code></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_">$ </span><span class="language-bash">paru -S powerdevil-ddcutil</span><br>// 我用的是arch，其他发行版我就不懂咯<br></code></pre></td></tr></table></figure>
+
+<ol start="5">
+<li>挂载并设置自动启动 <code>i2c-dev</code> 模块</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">modprobe -a i2c-dev</span><br><span class="hljs-meta prompt_"># </span><span class="language-bash"><span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;i2c-edv&quot;</span> &gt;&gt; /etc/modules-load.d/ddc.conf</span> <br></code></pre></td></tr></table></figure>
+
+<ol start="6">
+<li>把你加到 <code>i2c</code> 组里面（能使用 <code>i2c-dev</code> 模块）</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">gpasswd -a <span class="hljs-variable">$USER</span> i2c</span>  <br></code></pre></td></tr></table></figure>
+
+<ol start="7">
+<li>重启，然后看看你的，再调调看</li>
+</ol>
+<p><img src="/2023/01/17/jiang-zhi-chi-ddc-ci-de-xian-shi-qi-jie-ru-kde-de-liang-du-kong-zhi/2023-01-18-05-30-33.png" srcset="/img/loading.gif" lazyload></p>
+<hr>
+<p>这就是关于显示器要调暗的事情了，大家有什么想法呢，欢迎在评论区告诉小编一起讨论哦！(<a target="_blank" rel="noopener" href="https://kaseidis.gitee.io/interesting_gadgets/marketing_generator/index.htm">营销号生成器</a>)  </p>
 
                 
               </div>
@@ -364,7 +374,7 @@
     
       <span class="category-chain">
         
-  <a href="/categories/font/" class="category-chain-item">font</a>
+  <a href="/categories/linux/" class="category-chain-item">linux</a>
   
   
 
@@ -379,11 +389,9 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/font/">#font</a>
+        <a href="/tags/linux/">#linux</a>
       
-        <a href="/tags/design/">#design</a>
-      
-        <a href="/tags/subtitles/">#subtitles</a>
+        <a href="/tags/monitor/">#monitor</a>
       
     </div>
   
@@ -395,20 +403,20 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>什么时候该选用怎么样的字体？</div>
-      <div>http://blog.shira-aya.top/2023/01/20/什么时候该选用怎么样的字体？/</div>
+      <div>将支持 DDC/CI 的显示器接入 KDE 的亮度控制</div>
+      <div>http://blog.shira-aya.top/2023/01/17/jiang-zhi-chi-ddc-ci-de-xian-shi-qi-jie-ru-kde-de-liang-du-kong-zhi/</div>
     </div>
     <div class="license-meta">
       
         <div class="license-meta-item">
           <div>作者</div>
-          <div>Mark1551</div>
+          <div>KZK_</div>
         </div>
       
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年1月20日</div>
+          <div>2023年1月17日</div>
         </div>
       
       
@@ -452,12 +460,18 @@
                   <article class="post-prev col-6">
                     
                     
+                      <a href="/2023/01/19/pve-an-zhuang-ji/" title="PVE 安装寄">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">PVE 安装寄</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/01/19/PVE%20%E5%AE%89%E8%A3%85%E5%AF%84/" title="PVE 安装寄">
-                        <span class="hidden-mobile">PVE 安装寄</span>
+                      <a href="/2023/01/17/hello-world/" title="Hello World">
+                        <span class="hidden-mobile">Hello World</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
