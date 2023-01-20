@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>KZK&#39;s Blog</title>
+    <link>http://blog.shira-aya.top/</link>
+    
+    <atom:link href="http://blog.shira-aya.top/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Fri, 20 Jan 2023 06:16:24 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>什么时候该选用怎么样的字体？</title>
+      <link>http://blog.shira-aya.top/posts/how-to-use-fonts-5cb7535a/</link>
+      <guid>http://blog.shira-aya.top/posts/how-to-use-fonts-5cb7535a/</guid>
+      <pubDate>Fri, 20 Jan 2023 03:29:12 GMT</pubDate>
+      
+      <description>最近我看到bilibili上有很多视频开始用oooooohmygosh老师参与制作的得意黑字体。这位是我很敬佩的一个人，这个字体也是非常良心、非常美观的一个字体。但是我觉得很多人都在滥用字体（我指用得不准确），包括这个。（以下言论均为我个人观点。本人并非该方面专业人员，本文是我作为使用者来简述使用中的感受等。）</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p><em><strong>以下言论均为我个人观点。本人并非该方面专业人员，本文是我作为使用者来简述使用中的感受等。</strong></em>  </p><hr><h2 id="得意黑"><a href="#得意黑" class="headerlink" title="得意黑"></a>得意黑</h2><p>最近我看到bilibili上有很多视频开始用<a href="https://space.bilibili.com/38053181">oooooohmygosh</a>老师参与制作的<a href="https://github.com/atelier-anchor/smiley-sans">得意黑</a>字体。这位是我很敬佩的一个人，这个字体也是非常良心、非常美观的一个字体。<br><img src="https://raw.githubusercontent.com/atelier-anchor/smiley-sans/main/docs/images/smiley-sans.light.svg" alt="得意黑字体"></p><p>但是我觉得，在某些场合里面用这个字体是不是有些不合适？譬如<a href="https://www.bilibili.com/video/av990153256/">作为系统字体</a>、<a href="https://www.bilibili.com/video/av988642671/">作为IDE的字体</a>等，这些场合是对字体有一定要求的吧，读得快、读得准、读得舒服这样的。黑体字、宋体字比较好的选择。自定义字体当然是个人的权利，我说的也只是对于我自己的看法。  </p><p>很多个o老师也是这样觉得的：</p><blockquote><p>还是要再次强调，得意黑是美术字，是美术字，是美术字。  </p><p>虽然在<a href="https://github.com/atelier-anchor/smiley-sans#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9">GitHub主页</a>已经写得很清楚了，得意黑部分笔画和结构采用了美术字风格的形态处理方式，并未严格遵循中国大陆规范汉字写法，敬请注意。但用户们似乎还是会把它用到非常不合适的地方，比如替换成手机系统字体。</p><p>任何字体都存在被滥用的风险，但得意黑通过自媒体平台发布之后被快速地大面积使用，会让滥用的情况看起来更加突出。也有人说得意黑是简中版本的Comic Sans，这实在是太抬举了，得意黑怎么可能会得到嵌入到操作系统里面这种待遇呢，爆火只是一时的，不必担心。</p><p>所以我的呼吁是，用户们在选用字体的时候，可以认真思考下，究竟什么时候应该优先选用汉字规范写法的字体，又在什么时候可以选用美术字。这种事情看似基础，但还需要时间向人们科普。帮助人们提升设计意识才能从根本上为「美术字滥用」这个问题带来改变，剑指得意黑并不会改变什么。</p><p>摘自『<a href="https://www.bilibili.com/read/cv20540416">让我们在得意黑之外，再次相见吧。</a>』——oooooohmygosh  </p></blockquote><h2 id="那我是怎么选字体的？"><a href="#那我是怎么选字体的？" class="headerlink" title="那我是怎么选字体的？"></a>那我是怎么选字体的？</h2><p>啊哈，我选字体就是在哪种场合下看哪种顺眼就选了，没有什么特别的癖好。  </p><h3 id="1-字幕字体"><a href="#1-字幕字体" class="headerlink" title="1. 字幕字体"></a>1. 字幕字体</h3><p>一般是黑体。如果有源视频的话会跟着源视频的制作人员名单或者自带的字幕去选。  </p><p><a href="https://www.bilibili.com/video/av673798024/">例1 一般是黑体 (走れウマ娘)</a><br><img src="/posts/how-to-use-fonts-5cb7535a/2023-01-20-12-56-40.png" alt="例1图">  </p><p><a href="https://www.bilibili.com/video/av556414017/">例2 跟着源视频的制作人名单 (Shirakaze - osu! MIRACLE RUSH (TV Size))</a><br><img src="/posts/how-to-use-fonts-5cb7535a/2023-01-20-12-47-15.png" alt="例2图">  </p><p><a href="https://www.bilibili.com/video/av476885040/">例3 跟着源视频的字幕 (Shirakaze - osu! ギターと孤独と蒼い惑星)</a><br><img src="/posts/how-to-use-fonts-5cb7535a/2023-01-20-12-51-30.png" alt="例3图"></p><p>如果比较短的，比如几分钟的音乐视频，我觉得适量使用美术字也不错。<br>但是像24分钟的动画之类上面用美术字，我看完会觉得真瞎眼，看得难受，因为那些字形都不规范，难以辨识这个字是啥哪个字是啥。  </p><!-- 所以我喜欢`SweetSub`字幕组的字幕（ --><h3 id="2-系统字体"><a href="#2-系统字体" class="headerlink" title="2. 系统字体"></a>2. 系统字体</h3><p>不论是手机还是电脑，作为每天用电子设备必须经常看的字体，应该读得快、读得准、读得舒服吧。<br>黑体是不错的选择，感觉宋体这样的衬线体看久会比较累，可能是比较尖锐？<br>美术字、书法字之类看久是难受的，看过就懂。</p><p>反例：<br><img src="/posts/how-to-use-fonts-5cb7535a/2023-01-20-13-18-01.png"><br><img src="/posts/how-to-use-fonts-5cb7535a/2023-01-20-13-19-11.png"></p><p>甚至有这些：<br><img src="/posts/how-to-use-fonts-5cb7535a/2023-01-20-13-19-51.png"></p><p>这些有注音上面的字体在同样字号下会显小，看着真的难受。还有中文字体有拼音注音就醒了，你搞个平假名注音，什么意思？显得很牛逼？很有文化？很可爱？我觉得就显得罕见。</p><h3 id="3-其他"><a href="#3-其他" class="headerlink" title="3. 其他"></a>3. 其他</h3><p>看需求。文章我会用宋体、仿宋、黑体这样的字体。比较看着舒服。<br>终端、<code>vscode</code>里面用等宽字体。  </p><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>以上是我个人观点，不喜勿喷，感谢阅读。</p>]]></content:encoded>
+      
+      
+      <category domain="http://blog.shira-aya.top/categories/font/">font</category>
+      
+      
+      <category domain="http://blog.shira-aya.top/tags/font/">font</category>
+      
+      <category domain="http://blog.shira-aya.top/tags/design/">design</category>
+      
+      <category domain="http://blog.shira-aya.top/tags/subtitles/">subtitles</category>
+      
+      
+      <comments>http://blog.shira-aya.top/posts/how-to-use-fonts-5cb7535a/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>PVE 安装寄</title>
+      <link>http://blog.shira-aya.top/posts/pve-an-zhuang-ji-946669ad/</link>
+      <guid>http://blog.shira-aya.top/posts/pve-an-zhuang-ji-946669ad/</guid>
+      <pubDate>Wed, 18 Jan 2023 23:03:03 GMT</pubDate>
+      
+      <description>&lt;p&gt;脑袋一热，今天理线的时候想灌个 PVE 玩。于是就去灌了。  &lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>脑袋一热，今天理线的时候想灌个 PVE 玩。于是就去灌了。  </p><span id="more"></span><p>PVE, 也就是<a href="https://www.proxmox.com/en/proxmox-ve">Proxmox VE</a>，是一个完整的开源的服务器管理平台，用于虚拟化。</p><h2 id="1-准备"><a href="#1-准备" class="headerlink" title="1. 准备"></a>1. 准备</h2><p>下载最新的 PVE 在 <a href="https://www.proxmox.com/en/proxmox-ve">这里</a><br>用你的方法放到 U 盘里面，用于安装。我选用 <a href="https://www.ventoy.net/cn/index.html">Ventoy</a> 工具直接把 iso 丢进去，非常方便。  </p><h2 id="2-安装"><a href="#2-安装" class="headerlink" title="2. 安装"></a>2. 安装</h2><p>安装是简单的，插上 U 盘，插上键盘鼠标，进入安装镜像，照着提示装就是了。  </p><h2 id="3-配置"><a href="#3-配置" class="headerlink" title="3. 配置"></a>3. 配置</h2><p>在电脑上登入 <code>http://192.168.xxx.xxx:8006</code>, 进入 PVE 的管理界面。  </p><p><img src="/posts/pve-an-zhuang-ji-946669ad/2023-01-19-15-21-27.png" alt=" "><br>进入如图所示的Shell界面。</p><h3 id="1-禁用企业源"><a href="#1-禁用企业源" class="headerlink" title="1) 禁用企业源"></a>1) 禁用企业源</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash"><span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;#deb https://enterprise.proxmox.com/debian/pve bullseye pve-enterprise&quot;</span> &gt; /etc/apt/sources.list.d/pve-enterprise.list</span><br></code></pre></td></tr></table></figure><h3 id="2-换国内源"><a href="#2-换国内源" class="headerlink" title="2) 换国内源"></a>2) 换国内源</h3><figure class="highlight bash"><figcaption><span>/etc/apt/sources.list</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment">#deb http://ftp.debian.org/debian bullseye main contrib</span><br><span class="hljs-comment">#deb http://ftp.debian.org/debian bullseye-updates main contrib</span><br><span class="hljs-comment"># security updates</span><br><span class="hljs-comment">#deb http://security.debian.org bullseye/updates main contrib</span><br><br><span class="hljs-comment"># debian aliyun source</span><br>deb https://mirrors.aliyun.com/debian bullseye main contrib non-free<br>deb https://mirrors.aliyun.com/debian bullseye-updates main contrib non-free<br>deb https://mirrors.aliyun.com/debian bullseye/updates main contrib non-free<br><br><span class="hljs-comment"># proxmox source</span><br><span class="hljs-comment"># deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription</span><br>deb https://mirrors.ustc.edu.cn/proxmox/debian/pve bullseye pve-no-subscription<br></code></pre></td></tr></table></figure><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash"><span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;deb https://mirrors.ustc.edu.cn/proxmox/debian/pve bullseye pve-no-subscription&quot;</span> &gt; /etc/apt/sources.list.d/pve-no-subscription.list</span><br></code></pre></td></tr></table></figure><p>最后，再 <code>apt update</code> 一下，就装到能用的水准了。  </p>]]></content:encoded>
+      
+      
+      <category domain="http://blog.shira-aya.top/categories/linux/">linux</category>
+      
+      
+      <category domain="http://blog.shira-aya.top/tags/linux/">linux</category>
+      
+      <category domain="http://blog.shira-aya.top/tags/proxmox/">proxmox</category>
+      
+      
+      <comments>http://blog.shira-aya.top/posts/pve-an-zhuang-ji-946669ad/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>将支持 DDC/CI 的显示器接入 KDE 的亮度控制</title>
+      <link>http://blog.shira-aya.top/posts/jiang-zhi-chi-ddc-ci-de-xian-shi-qi-jie-ru-kde-de-liang-du-kong-zhi-990233e7/</link>
+      <guid>http://blog.shira-aya.top/posts/jiang-zhi-chi-ddc-ci-de-xian-shi-qi-jie-ru-kde-de-liang-du-kong-zhi-990233e7/</guid>
+      <pubDate>Tue, 17 Jan 2023 13:29:38 GMT</pubDate>
+      
+      <description>有些时候尤其是晚上，显示器太亮了，又不想面对硬按钮、难用的OSD菜单。</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>显示器要调暗是怎么回事呢？显示器相信大家都很熟悉，但是显示器要调暗是怎么回事呢，下面就让小编带大家一起了解吧。<br>显示器要调暗，其实就是太亮了的话，在晚上对眼睛不好，大家可能会很惊讶显示器怎么会要调暗呢？但事实就是这样，小编也感到非常惊讶。</p><hr><h2 id="为什么要用软件调显示屏亮度"><a href="#为什么要用软件调显示屏亮度" class="headerlink" title="为什么要用软件调显示屏亮度"></a>为什么要用软件调显示屏亮度</h2><ol><li>方便，我的键盘上有调节亮度的功能键  </li><li>我显示屏的按钮，又硬又难辨认，有时候按着按着画面没了(AOC!!!! 还有为什么不能同时开sRGB模式的同时改亮度)</li></ol><h2 id="怎么看出我的设备支持-DDC-x2F-CI"><a href="#怎么看出我的设备支持-DDC-x2F-CI" class="headerlink" title="怎么看出我的设备支持 DDC&#x2F;CI"></a>怎么看出我的设备支持 DDC&#x2F;CI</h2><p>百度搜索。  </p><h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ol><li>看看你的显示器正不正常</li></ol><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">ddcutil detect</span><br></code></pre></td></tr></table></figure><ol start="2"><li>看看你的亮度正不正常</li></ol><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">ddcutil getvcp 10</span> <br>// feature 10 = brightness<br></code></pre></td></tr></table></figure><ol start="3"><li>调调你的亮度，看看功能正不正常</li></ol><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">ddcutil setvcp 10 80</span> <br></code></pre></td></tr></table></figure><ol start="4"><li>把 KDE 的 <code>powerdevil</code> 换成 AUR 上的 <code>powerdevil-ddcutil</code></li></ol><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_">$ </span><span class="language-bash">paru -S powerdevil-ddcutil</span><br>// 我用的是arch，其他发行版我就不懂咯<br></code></pre></td></tr></table></figure><ol start="5"><li>挂载并设置自动启动 <code>i2c-dev</code> 模块</li></ol><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">modprobe -a i2c-dev</span><br><span class="hljs-meta prompt_"># </span><span class="language-bash"><span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;i2c-edv&quot;</span> &gt;&gt; /etc/modules-load.d/ddc.conf</span> <br></code></pre></td></tr></table></figure><ol start="6"><li>把你加到 <code>i2c</code> 组里面（能使用 <code>i2c-dev</code> 模块）</li></ol><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">gpasswd -a <span class="hljs-variable">$USER</span> i2c</span>  <br></code></pre></td></tr></table></figure><ol start="7"><li>重启，然后看看你的，再调调看</li></ol><p><img src="/posts/jiang-zhi-chi-ddc-ci-de-xian-shi-qi-jie-ru-kde-de-liang-du-kong-zhi-990233e7/2023-01-18-05-30-33.png"></p><hr><p>这就是关于显示器要调暗的事情了，大家有什么想法呢，欢迎在评论区告诉小编一起讨论哦！(<a href="https://kaseidis.gitee.io/interesting_gadgets/marketing_generator/index.htm">营销号生成器</a>)  </p>]]></content:encoded>
+      
+      
+      <category domain="http://blog.shira-aya.top/categories/linux/">linux</category>
+      
+      
+      <category domain="http://blog.shira-aya.top/tags/linux/">linux</category>
+      
+      <category domain="http://blog.shira-aya.top/tags/monitor/">monitor</category>
+      
+      
+      <comments>http://blog.shira-aya.top/posts/jiang-zhi-chi-ddc-ci-de-xian-shi-qi-jie-ru-kde-de-liang-du-kong-zhi-990233e7/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://blog.shira-aya.top/posts/hello-world-4a17b156/</link>
+      <guid>http://blog.shira-aya.top/posts/hello-world-4a17b156/</guid>
+      <pubDate>Mon, 16 Jan 2023 22:51:16 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://blog.shira-aya.top/posts/hello-world-4a17b156/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
