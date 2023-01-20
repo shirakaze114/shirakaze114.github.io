@@ -16,23 +16,27 @@
   <meta name="author" content="KZK_">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+    <meta name="description" content="有些时候尤其是晚上，显示器太亮了，又不想面对硬按钮、难用的OSD菜单。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://blog.shira-aya.top/2023/01/17/hello-world/index.html">
+<meta property="og:title" content="将支持 DDC&#x2F;CI 的显示器接入 KDE 的亮度控制">
+<meta property="og:url" content="http://blog.shira-aya.top/posts/jiang-zhi-chi-ddc-ci-de-xian-shi-qi-jie-ru-kde-de-liang-du-kong-zhi-990233e7.html">
 <meta property="og:site_name" content="KZK&#39;s Blog">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="有些时候尤其是晚上，显示器太亮了，又不想面对硬按钮、难用的OSD菜单。">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-01-16T22:51:16.744Z">
-<meta property="article:modified_time" content="2023-01-16T22:51:16.744Z">
+<meta property="og:image" content="http://blog.shira-aya.top/posts/jiang-zhi-chi-ddc-ci-de-xian-shi-qi-jie-ru-kde-de-liang-du-kong-zhi-990233e7/2023-01-18-05-30-33.png">
+<meta property="article:published_time" content="2023-01-17T13:29:38.000Z">
+<meta property="article:modified_time" content="2023-01-20T06:09:44.573Z">
 <meta property="article:author" content="KZK_">
+<meta property="article:tag" content="linux">
+<meta property="article:tag" content="monitor">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://blog.shira-aya.top/posts/jiang-zhi-chi-ddc-ci-de-xian-shi-qi-jie-ru-kde-de-liang-du-kong-zhi-990233e7/2023-01-18-05-30-33.png">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>Hello World - KZK&#39;s Blog</title>
+  <title>将支持 DDC/CI 的显示器接入 KDE 的亮度控制 - KZK&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -198,7 +202,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle">Hello World</span>
+            <span id="subtitle">将支持 DDC/CI 的显示器接入 KDE 的亮度控制</span>
           
         </div>
 
@@ -214,8 +218,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-01-17 06:51" pubdate>
-          2023年1月17日 早上
+        <time datetime="2023-01-17 21:29" pubdate>
+          2023年1月17日 晚上
         </time>
       </span>
     
@@ -226,7 +230,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          367 字
+          635 字
         
       </span>
     
@@ -237,7 +241,7 @@
         
         
         
-          4 分钟
+          6 分钟
         
       </span>
     
@@ -296,24 +300,62 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Hello World</h1>
+            <h1 style="display: none">将支持 DDC/CI 的显示器接入 KDE 的亮度控制</h1>
+            
+              <p class="note note-info">
+                
+                  
+                    本文最后更新于：几秒前
+                  
+                
+              </p>
             
             
               <div class="markdown-body">
                 
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+                <p>显示器要调暗是怎么回事呢？显示器相信大家都很熟悉，但是显示器要调暗是怎么回事呢，下面就让小编带大家一起了解吧。<br>显示器要调暗，其实就是太亮了的话，在晚上对眼睛不好，大家可能会很惊讶显示器怎么会要调暗呢？但事实就是这样，小编也感到非常惊讶。</p>
+<hr>
+<h2 id="为什么要用软件调显示屏亮度"><a href="#为什么要用软件调显示屏亮度" class="headerlink" title="为什么要用软件调显示屏亮度"></a>为什么要用软件调显示屏亮度</h2><ol>
+<li>方便，我的键盘上有调节亮度的功能键  </li>
+<li>我显示屏的按钮，又硬又难辨认，有时候按着按着画面没了(AOC!!!! 还有为什么不能同时开sRGB模式的同时改亮度)</li>
+</ol>
+<h2 id="怎么看出我的设备支持-DDC-x2F-CI"><a href="#怎么看出我的设备支持-DDC-x2F-CI" class="headerlink" title="怎么看出我的设备支持 DDC&#x2F;CI"></a>怎么看出我的设备支持 DDC&#x2F;CI</h2><p>百度搜索。  </p>
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ol>
+<li>看看你的显示器正不正常</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">ddcutil detect</span><br></code></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+<ol start="2">
+<li>看看你的亮度正不正常</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">ddcutil getvcp 10</span> <br>// feature 10 = brightness<br></code></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+<ol start="3">
+<li>调调你的亮度，看看功能正不正常</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">ddcutil setvcp 10 80</span> <br></code></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+<ol start="4">
+<li>把 KDE 的 <code>powerdevil</code> 换成 AUR 上的 <code>powerdevil-ddcutil</code></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_">$ </span><span class="language-bash">paru -S powerdevil-ddcutil</span><br>// 我用的是arch，其他发行版我就不懂咯<br></code></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<ol start="5">
+<li>挂载并设置自动启动 <code>i2c-dev</code> 模块</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">modprobe -a i2c-dev</span><br><span class="hljs-meta prompt_"># </span><span class="language-bash"><span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;i2c-edv&quot;</span> &gt;&gt; /etc/modules-load.d/ddc.conf</span> <br></code></pre></td></tr></table></figure>
+
+<ol start="6">
+<li>把你加到 <code>i2c</code> 组里面（能使用 <code>i2c-dev</code> 模块）</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">gpasswd -a <span class="hljs-variable">$USER</span> i2c</span>  <br></code></pre></td></tr></table></figure>
+
+<ol start="7">
+<li>重启，然后看看你的，再调调看</li>
+</ol>
+<p><img src="/posts/jiang-zhi-chi-ddc-ci-de-xian-shi-qi-jie-ru-kde-de-liang-du-kong-zhi-990233e7/2023-01-18-05-30-33.png" srcset="/img/loading.gif" lazyload></p>
+<hr>
+<p>这就是关于显示器要调暗的事情了，大家有什么想法呢，欢迎在评论区告诉小编一起讨论哦！(<a target="_blank" rel="noopener" href="https://kaseidis.gitee.io/interesting_gadgets/marketing_generator/index.htm">营销号生成器</a>)  </p>
 
                 
               </div>
@@ -322,6 +364,36 @@
             <div>
               <div class="post-metas my-3">
   
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/linux/" class="category-chain-item">linux</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/linux/">#linux</a>
+      
+        <a href="/tags/monitor/">#monitor</a>
+      
+    </div>
   
 </div>
 
@@ -331,8 +403,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Hello World</div>
-      <div>http://blog.shira-aya.top/2023/01/17/hello-world/</div>
+      <div>将支持 DDC/CI 的显示器接入 KDE 的亮度控制</div>
+      <div>http://blog.shira-aya.top/posts/jiang-zhi-chi-ddc-ci-de-xian-shi-qi-jie-ru-kde-de-liang-du-kong-zhi-990233e7.html</div>
     </div>
     <div class="license-meta">
       
@@ -388,15 +460,21 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/01/17/jiang-zhi-chi-ddc-ci-de-xian-shi-qi-jie-ru-kde-de-liang-du-kong-zhi/" title="将支持 DDC/CI 的显示器接入 KDE 的亮度控制">
+                      <a href="/posts/pve-an-zhuang-ji-946669ad.html" title="PVE 安装寄">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">将支持 DDC/CI 的显示器接入 KDE 的亮度控制</span>
+                        <span class="hidden-mobile">PVE 安装寄</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/posts/hello-world-4a17b156.html" title="Hello World">
+                        <span class="hidden-mobile">Hello World</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
